@@ -1,0 +1,63 @@
+﻿body {
+}
+
+#logo h4{
+    color: #c52025;
+}
+
+ul.nav.top-2 li a {
+font-weight:bold;
+}
+
+.navbar {
+    background: white;
+}
+
+ul.nav.top-2 li.active a, ul.nav.top-2 li a:hover, .servive-block .span4 h4 a:hover, .servive-block .span4:hover h4, .servive-block .span4:hover i, .who li i, .color-green, .breadcrumb li.active, .breadcrumb li a:hover{
+color:#c52025;
+}
+
+.footer a {
+color:white;
+}
+
+.headline h3, .headline h4, .navbar .nav > .active > a, .navbar .nav > li > a:hover  {
+border-bottom:solid 2px #c52025;
+}
+
+.in.collapse li a:hover, .in.collapse li a.dropdown-toggle {
+    border-bottom:solid 1px #c52025 !important;
+}
+
+.btn-u, .thumbnail-style a.btn-more, .navbar .btn-navbar, .navbar .btn-navbar:hover {
+background-color:#c52025;
+}
+
+.btn-u:hover {
+	color:#fff;
+	background:#881c1f;
+	text-decoration:none;
+    -webkit-transition:all 0.4s ease-in-out;
+    -moz-transition:all 0.4s ease-in-out;
+    -o-transition:all 0.4s ease-in-out;
+    transition:all 0.4s ease-in-out;
+}
+
+.servive-block .span4 a:hover {
+
+    text-decoration:none;
+}
+
+.breadcrumb {
+font-size:18px;
+}
+
+.bxslider img {
+    height:380px;
+}
+
+.form-group.required .control-label:after { 
+   content:"*";
+   color:red;
+}
+

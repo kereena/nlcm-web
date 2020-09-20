@@ -1,0 +1,15 @@
+language: node_js
+
+node_js:
+  - "node"
+
+script: true
+
+deploy:
+  provider: script
+  script: bash ./deploy.sh
+  on:
+    branch: master
+env:
+  secure: "KX3XqnQ/uGtbkjr7t8PfYuSmU2znHwdXBABETXTZvnKHP0JoeGCLQI8583h2fB5wY+QYAebsFgzDWLJmvjbe8+RDyiUDLqacKCC8O97F3qfsXZu2MzDBYJ/qeCPkSXCendVgfhVlUAtSAowKw4sB7nW6RuWss+Rh2AfGWxgiQn3RZTgLjGHrNJwSJbjKIa6xCALuTIIh6wPh80yk+FpoNutWlvRXzy9jJpfWJYLM1rnpwuRX2ZTf5KGVlUjLNOjurICXxpxYZyHhlCjOQagGUggKB6H9dVy20+KNlv1xCUv+nuyFciaCCti6OBgxvP3w2YONa7hH289veZi96/3hMg0kLhu0st36FuBIZ2zkLmZH62ccY961+09M8ffQST9Q9/bUbOYZEAtqwj0VNc/gYEZ5TOL3mDzvxFI1SZ5Oh9y5LLGE9VDWNEEIN20pOedNUNk3EreNldmEyCsNs6+ckkP6ApqvdD1mH1creu5u5Jto6z58aLjvAhcJrFv7wYwYyAH/VrYJYR+IzjHxBskwQVhWDbHuM7WYItT7Ld9cF6WviA1H1TBNDRJiKRd/ybQnimItmdSFZSsMh4aePfq8Lr8IQ9BJUUup6d4jZwHESavnnbKUeibnlU9n2LaohBg7AMTe8hKPyPTCio5pjmT0pXwSFTEzXiGlqc0tE6PEeWE="
+
